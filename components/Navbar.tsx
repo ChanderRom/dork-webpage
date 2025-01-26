@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styled from 'styled-components';
 
 const NavbarContainer = styled.nav`
@@ -6,33 +7,53 @@ const NavbarContainer = styled.nav`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 `;
 
 const Logo = styled.img`
     width: auto;
-    height: 140px;
+    height: 120px;
+    
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 const NavButton = styled.button`
     background-color: transparent;
     border: none;
-    color: white;
-    font-size: 18px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: -3.5px;
+    color: #2EFE51;
 
     &:hover {
         cursor: pointer;
+        color: white;
     }
 `;
 
 export const Navbar: React.FC = () => {
     return (
         <NavbarContainer>
-            <Logo src="/images/dork-logo.png" alt="Logo" />
-            <NavButton>Listen.</NavButton>
-            <NavButton>Show.</NavButton>
-            <NavButton>Conotact.</NavButton>
+            <Link href="/">
+                <Logo src="/images/dork-logo.png" alt="Logo" />
+            </Link>
+
+            <Link href="/listen">
+                <NavButton>LISTEN.</NavButton>
+            </Link>
+
+            <Link href="/watch">
+                <NavButton>WATCH.</NavButton>
+            </Link>
+
+            <Link href="/contact">
+                <NavButton>CONTACT.</NavButton>
+            </Link>
+
+            <Link href="/shows">
+                <NavButton>SHOWS.</NavButton>
+            </Link>
         </NavbarContainer>
     );
 };
