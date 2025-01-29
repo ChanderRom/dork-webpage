@@ -37,3 +37,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+main {
+    padding-right: 1rem;
+}

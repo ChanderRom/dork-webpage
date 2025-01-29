@@ -40,7 +40,7 @@ export default function Shows() {
             <p className='crossed'>16 JAN / Aurora Music, Rubí / <span>TICKETS</span></p>
             <p>16 Feb / Aurora Music, Rubí / <span>TICKETS</span></p>
             <p>03 Apr / Café Las Palmas, Madrid / <span>TICKETS</span></p>
-            <p>03 JAN / Actual Fest, Logroño / <span>TICKETS</span></p>
+            <p>25 May / Actual Fest, Logroño / <span>TICKETS</span></p>
         </Wrapper>
     );
 }
