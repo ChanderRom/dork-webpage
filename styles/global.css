@@ -1,0 +1,43 @@
+:root {
+    --font-roboto: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem 0 0 1rem;
+    font-family: var(--font-roboto), sans-serif;
+    background-image: url('/images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    padding-right: 1rem;
+}
