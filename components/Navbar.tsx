@@ -56,15 +56,15 @@ export const Navbar: React.FC = () => {
             </Link>
 
             <Link href="/listen">
-                <NavButton>LISTEN.</NavButton>
+                <NavButton>ESCUCHA.</NavButton>
             </Link>
 
             <Link href="/watch">
-                <NavButton>WATCH.</NavButton>
+                <NavButton>MIRA.</NavButton>
             </Link>
 
             <Link href="/shows">
-                <NavButton>SHOWS.</NavButton>
+                <NavButton>CONCIERTOS.</NavButton>
             </Link>
 
             {icons.map(({ href, Component }, index) => (

@@ -24,7 +24,7 @@ const Wrapper = styled.div`
 export default function Listen() {
     return (
         <Wrapper>
-            <h1>LISTEN.</h1>
+            <h1>ESCUCHA.</h1>
             <iframe src="https://open.spotify.com/embed/album/3qblZYHvG0NMgi3g8CXMXH?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </Wrapper>
     );

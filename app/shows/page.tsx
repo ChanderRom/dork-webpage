@@ -35,12 +35,14 @@ const Wrapper = styled.div`
 export default function Shows() {
     return (
         <Wrapper>
-            <h1>SHOWS.</h1>
-            <p className='crossed'>03 JAN / Actual Fest, Logroño / <span>TICKETS</span></p>
-            <p className='crossed'>16 JAN / Aurora Music, Rubí / <span>TICKETS</span></p>
-            <p>16 Feb / Aurora Music, Rubí / <span>TICKETS</span></p>
-            <p>03 Apr / Café Las Palmas, Madrid / <span>TICKETS</span></p>
-            <p>25 May / Actual Fest, Logroño / <span>TICKETS</span></p>
+            <h1>CONCIERTOS.</h1>
+            <p className='crossed'>03 ENE / Actual Fest, Logroño / <span>TICKETS</span></p>
+            <p className='crossed'>16 Feb / Aurora Music, Rubí / <span>TICKETS</span></p>
+            <p className='crossed'>03 Apr / Café Las Palmas, Madrid / <span>TICKETS</span></p>
+            <p className='crossed'>11 MAR / Aurora Music, Rubí / <span>TICKETS</span></p>
+            <p>12 ABR / Sala Slow, Barcelona / <span>TICKETS</span></p>
+            <p>24 ABR / TBA</p>
+            <p>14 JUN / TBA</p>
         </Wrapper>
     );
 }
