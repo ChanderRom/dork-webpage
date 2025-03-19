@@ -39,8 +39,9 @@ const NavButton = styled.button`
     border: none;
     font-size: 1.6rem;
     font-weight: bold;
-    letter-spacing: -3.5px;
+    letter-spacing: -3px;
     color: #2EFE51;
+    padding: 0;
 
     &:hover {
         cursor: pointer;
