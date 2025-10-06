@@ -1,9 +1,8 @@
 'use client'
 
+import { Navbar, Watch, Shows, Listen, Header } from '@/components';
 import '/styles/global.css';
-import { Navbar } from '../components/Navbar';
 import { Roboto } from 'next/font/google';
-import styled from 'styled-components';
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -13,7 +12,6 @@ const roboto = Roboto({
 
 
 export default function RootLayout({
-  children,
 }: {
   children: React.ReactNode;
 }) {
@@ -21,7 +19,12 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <main>{children}</main>
+        <main>
+          <Header />
+          <Listen />
+          <Watch />
+          <Shows />
+        </main>
       </body>
     </html>
   );
