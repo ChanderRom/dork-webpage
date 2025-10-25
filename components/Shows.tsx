@@ -14,9 +14,10 @@ const Wrapper = styled.div`
     }
 
     p, span {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: bold;
         text-align: center;
+        margin-bottom: .5rem;
     }
 
     p {
@@ -32,21 +33,17 @@ const Wrapper = styled.div`
 export const Shows: React.FC = () => {
     return (
         <Wrapper>
-            <h1 className='section-title bg-blue'>CONCIERTOS.</h1>
+            <h1 className='section-title bg-blue'>VEN.</h1>
             <p className='crossed'>20 SEP / CGT AURORA, Rubí</p>
             <p className='crossed'>21 SEP / PARRILLA ROCK, Logroño</p>
             <p className='crossed'>25 SEP / BAR STEREO, Logroño</p>
             <p className='crossed'>03 OCT / ESTRAPERLO, Badalona</p>
-            <p>11 OCT / BAR ITALIA, Vilanova /
-                <span>
-                    <a href='https://entradium.com/events/dork' target='blank'> TICKETS</a>
-                </span>
-            </p>
+            <p className='crossed'>11 OCT / BAR ITALIA, Vilanova</p>
             <p>30 OCT / WURLITZER, Madrid /
                 <span>
                     <a href='https://entradium.com/events/driade-dork-artista-invitado' target='blank'> TICKETS</a>
-                </span></p>
-            <p>31 OCT / TBA</p>
+                </span>
+            </p>
         </Wrapper>
     );
 }
